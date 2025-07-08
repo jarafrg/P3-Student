@@ -113,7 +113,7 @@ public class P3_RubricProvider implements RubricProvider {
 
     // ========== Rubric Definition ==========
     public static final Rubric RUBRIC = Rubric.builder()
-            .title("H1 - Hashtable in Action for Monitoring")
+            .title("P3 Public Tests")
             .addChildCriteria(H1)
             .addChildCriteria(H2)
             .addChildCriteria(H3)
