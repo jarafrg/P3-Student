@@ -1,0 +1,14 @@
+# Build files
+build/
+.gradle/
+
+# IDE files  
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jagr config (if contains sensitive info)
+jagr.conf
