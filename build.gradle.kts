@@ -23,6 +23,7 @@ submission {
 dependencies {
     testImplementation("org.junit-pioneer:junit-pioneer:2.0.0")
     testImplementation("com.fasterxml.jackson.core:jackson-databind:2.17.1")
+    testImplementation("org.tudalgo:algoutils-tutor:0.7.3-SNAPSHOT")
 }
 
 

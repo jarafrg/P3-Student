@@ -102,106 +102,106 @@
     }
   ],
   "getTest": [
-      {
-        "key": "backend-1",
-        "load": 55,
-        "shouldExist": true
-      },
-      {
-        "key": "frontend-main",
-        "load": 22,
-        "shouldExist": true
-      },
-      {
-        "key": "loadbalancer",
-        "load": 77,
-        "shouldExist": false
-      },
-      {
-        "key": "api-gateway",
-        "load": 66,
-        "shouldExist": true
-      },
-      {
-        "key": "cache-redis",
-        "load": 88,
-        "shouldExist": false
-      },
-      {
-        "key": "db-master",
-        "load": 92,
-        "shouldExist": true
-      },
-      {
-        "key": "auth-service",
-        "load": 34,
-        "shouldExist": true
-      },
-      {
-        "key": "analytics-node",
-        "load": 15,
-        "shouldExist": false
-      },
-      {
-        "key": "proxy-server",
-        "load": 41,
-        "shouldExist": true
-      },
-      {
-        "key": "storage-nas",
-        "load": 63,
-        "shouldExist": false
-      },
-      {
-        "key": "monitoring-01",
-        "load": 28,
-        "shouldExist": true
-      },
-      {
-        "key": "legacy-system",
-        "load": 5,
-        "shouldExist": false
-      },
-      {
-        "key": "cdn-edge",
-        "load": 72,
-        "shouldExist": true
-      },
-      {
-        "key": "mq-broker",
-        "load": 50,
-        "shouldExist": true
-      },
-      {
-        "key": "log-aggregator",
-        "load": 19,
-        "shouldExist": false
-      },
-      {
-        "key": "ci-cd-runner",
-        "load": 37,
-        "shouldExist": true
-      },
-      {
-        "key": "backup-server",
-        "load": 10,
-        "shouldExist": false
-      },
-      {
-        "key": "dns-resolver",
-        "load": 44,
-        "shouldExist": true
-      },
-      {
-        "key": "mail-server",
-        "load": 81,
-        "shouldExist": true
-      },
-      {
-        "key": "test-node",
-        "load": 0,
-        "shouldExist": false
-      }
+    {
+      "key": "backend-1",
+      "load": 55,
+      "shouldExist": true
+    },
+    {
+      "key": "frontend-main",
+      "load": 22,
+      "shouldExist": true
+    },
+    {
+      "key": "loadbalancer",
+      "load": 77,
+      "shouldExist": false
+    },
+    {
+      "key": "api-gateway",
+      "load": 66,
+      "shouldExist": true
+    },
+    {
+      "key": "cache-redis",
+      "load": 88,
+      "shouldExist": false
+    },
+    {
+      "key": "db-master",
+      "load": 92,
+      "shouldExist": true
+    },
+    {
+      "key": "auth-service",
+      "load": 34,
+      "shouldExist": true
+    },
+    {
+      "key": "analytics-node",
+      "load": 15,
+      "shouldExist": false
+    },
+    {
+      "key": "proxy-server",
+      "load": 41,
+      "shouldExist": true
+    },
+    {
+      "key": "storage-nas",
+      "load": 63,
+      "shouldExist": false
+    },
+    {
+      "key": "monitoring-01",
+      "load": 28,
+      "shouldExist": true
+    },
+    {
+      "key": "legacy-system",
+      "load": 5,
+      "shouldExist": false
+    },
+    {
+      "key": "cdn-edge",
+      "load": 72,
+      "shouldExist": true
+    },
+    {
+      "key": "mq-broker",
+      "load": 50,
+      "shouldExist": true
+    },
+    {
+      "key": "log-aggregator",
+      "load": 19,
+      "shouldExist": false
+    },
+    {
+      "key": "ci-cd-runner",
+      "load": 37,
+      "shouldExist": true
+    },
+    {
+      "key": "backup-server",
+      "load": 10,
+      "shouldExist": false
+    },
+    {
+      "key": "dns-resolver",
+      "load": 44,
+      "shouldExist": true
+    },
+    {
+      "key": "mail-server",
+      "load": 81,
+      "shouldExist": true
+    },
+    {
+      "key": "test-node",
+      "load": 0,
+      "shouldExist": false
+    }
   ],
   "hashTest": [
     {

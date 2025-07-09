@@ -37,7 +37,7 @@ public class GraphTrianglesCalculator<N> {
      */
     public GraphTrianglesCalculator(Graph<N> graph) {
         this.graph = graph;
-        this.matrix = toAdjacencyMatrix(graph);
+        this.matrix = (graph != null) ? toAdjacencyMatrix(graph) : null;
     }
 
     /**
