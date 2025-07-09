@@ -12,13 +12,14 @@ public class ServerMonitor {
 
     private LinkedList<ServerEntry>[] table;
     private int size;
-    private final double LOAD_FACTOR = 0.75;
+    private static final double LOAD_FACTOR = 0.75;
 
     /**
      * Initializes a new  hashtable with specified capacity for server monitoring.
      *
      * @param capacity Initial number of buckets in hash table
      */
+    @SuppressWarnings("unchecked")
     public ServerMonitor(int capacity) {
         table = new LinkedList[capacity];
         size = 0;
@@ -80,8 +81,7 @@ public class ServerMonitor {
      * {@code put()} method to ensure proper redistribution.
      * This helps maintain efficient lookup and insertion times as the number of entries grows.
      */
-
-    private void rehash() {
+    public void rehash() {
         crash();
     }
 
@@ -98,7 +98,7 @@ public class ServerMonitor {
      * @return The computed hash value within the range of the hash table size
      * @throws IllegalArgumentException if the input key is null or empty
      */
-    private int rollingHash(String key) {
+    public int rollingHash(String key) {
         return crash();
     }
 }
